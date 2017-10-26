@@ -1,5 +1,5 @@
 body{
-	color: #5b5947;
+	/*color: #5b5947;*/
 	background: url('../images/clouds.jpg') no-repeat center center fixed;
 	/*background-color: #cac5a0;*/
 	-webkit-background-size: cover;
@@ -14,7 +14,7 @@ body{
 	font-size: 20px;
 }
 .first-par{
-	font-family: monospace;
+	/*font-family: monospace;*/
 }
 .second-par{
 
