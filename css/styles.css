@@ -1,7 +1,9 @@
 body{
 	color: #5b5947;
-	background-image: url('../images/clocks.jpg');
+	background: url('../images/clouds.jpg') no-repeat center center fixed;
 	/*background-color: #cac5a0;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
 	background-size: cover;
 	font-family: sans-serif;
 }
