@@ -1,17 +1,35 @@
 body{
-	background-color: #cac5a0;
-/*	background-image: url('images/clocks.jpg');*/
+	color: #5b5947;
+	background-image: url('../images/clocks.jpg');
+	/*background-color: #cac5a0;*/
+	background-size: cover;
 	font-family: sans-serif;
 }
-first-div{
+.first-div{
 	
 }
-header{
+.header{
+	font-size: 20px; 
+}
+.first-par{
 	
 }
-first-par{
-	
-}
-second-par{
+.second-par{
 		
 }
+/*p{*/
+/*	-webkit-animation: myAnimation 5s infinite;*/
+/*	animation: myAnimation 5s infinite;*/
+/*}*/
+
+/*@-webkit-keyframes 'myAnimation'{*/
+/*	50%{*/
+/*		background-color: #ffffff;*/
+/*	}*/
+/*}*/
+
+/*@keyframes 'myAnimation'{*/
+/*	50%{*/
+/*		background-color: #ffffff;*/
+/*	}*/
+/*}*/
