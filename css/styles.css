@@ -12,12 +12,18 @@ body{
 }
 .header{
 	font-size: 20px;
+	background-color: #d1d9ff;
+	border: 10px solid #000000;
 }
 .first-par{
 	/*font-family: monospace;*/
 }
 .second-par{
+	
+}
 
+p{
+	background-color: #d1d9ff;
 }
 /*p{*/
 /*	-webkit-animation: myAnimation 5s infinite;*/
