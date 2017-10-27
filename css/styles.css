@@ -12,8 +12,9 @@ body{
 }
 .header{
 	font-size: 20px;
-	background-color: #d1d9ff;
-	border: 10px solid #000000;
+	background-color: #d1a65f;
+	padding: 20px;
+	
 }
 .first-par{
 	/*font-family: monospace;*/
@@ -23,7 +24,9 @@ body{
 }
 
 p{
-	background-color: #d1d9ff;
+	border-left: 10px solid #ffffff;
+	background-color: #d1a65f;
+	padding: 20px;
 }
 /*p{*/
 /*	-webkit-animation: myAnimation 5s infinite;*/
