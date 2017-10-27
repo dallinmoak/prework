@@ -5,15 +5,20 @@ body{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	font-family: sans-serif;
+	font-family: 'Droid Sans', sans-serif;
 }
+
 .first-div{
 
 }
+
 .header{
 	font-size: 20px;
-	background-color: #d1a65f;
+	background-color: rgba(209, 166, 95,0.75);
 	padding: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 	
 }
 .first-par{
@@ -25,8 +30,14 @@ body{
 
 p{
 	border-left: 10px solid #ffffff;
-	background-color: #d1a65f;
+	background-color: rgba(209, 166, 95,0.75);
 	padding: 20px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 /*p{*/
 /*	-webkit-animation: myAnimation 5s infinite;*/
