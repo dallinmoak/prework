@@ -11,9 +11,6 @@ th {
     background-color: black;
     color: #fff;
 }
-tr:nth-child(even){
-    background-color: #d1dafe;
-}
 
 tr, td {
     padding: 10px 5px 5px 10px;
@@ -22,7 +19,9 @@ tr, td {
     /*background-color: #fff;*/
 }
 
-
+tr:nth-child(even){
+    background-color: #d1dafe;
+}
 
 #total{
     text-align: left;
