@@ -1,11 +1,12 @@
 .main {
 	font-family: sans-serif;
+
 }
 
 label {
-	font-size: .7em;
 }
 
 input {
 	text-size: 2em;
+	font-family: serif;
 }

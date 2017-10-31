@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-   <head>
+
+<head>
 	<meta charset='utf-8'>
 	<title>the form page</title>
 	<link rel="icon" type="image/png" href='images/trump.png'>
@@ -9,13 +10,50 @@
 
 <body>
 	<div class='main'>
-		<form id='form1' action="contact_form.php" method='get'>
+		<form id='form1' action="contact_form.php" method='get' oninput="sumof.value=parseInt(number1.value)+parseInt(number2.value)">
 			<label for='name'>Name:</label>
 			<input type='text' name='name' placeholder="Jack Bauer"><br>
 			<label for='email'>Email: </label>
 			<input type='text' name='email' placeholder="bauerj@la.ctu.gov"><br>
-			<input type="submit" value='asdf'>
+			<label for='message'>what you got to say?</label><br>
+			<textarea name='message' rows='10' cols='30'></textarea><br>
+			<label for='source'>dropdown: </label>
+			<select name='source'>
+				<option value='thing1'>1 thing</option>
+				<option value='thing2'>2 things</option>
+				<option value='thing3'>3 things</option>
+			</select><br>
+			<label for='source2'>dropdown2: </label>
+			<select name='source2'>
+				<optgroup label='group1'>
+					<option value='one'>one</option>
+				</optgroup>
+				<optgroup label='group2'>
+					<option value='two'>two</option>
+					<option value='three'>three</option>
+				</optgroup>
+
+			</select>
+			<hr>
+			<label for='options'>paking requirements:</label><br>
+			<input type='checkbox' name='options' value='opt1'>an option<br>
+			<input type='checkbox' name='options' value='opt2'>another option<br>
+			<input type='checkbox' name='options' value='opt3'>a third option<br>
+			<hr>
+			<label for='delivery'>Delivery</label><br>
+			<input type='radio' name='delivery' value='choice1'>first choice<br>
+			<input type='radio' name='delivery' value='choice2'>second choice<br>
+			<input type='radio' name='delivery' value='choice3'> third choice<br>
+			<hr>
+			<label for='number1'>first number</label>
+			<input type='text' name='number1'><br>
+			<label for='number2'>second number</label>
+			<input type='text' name='number2'><br> the sum of the above:<output name='sumof'></output><br>
+			<hr>
+			<input type="submit" value='the submit button'>
+
 		</form>
 	</div>
 </body>
+
 </html>
