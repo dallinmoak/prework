@@ -54,8 +54,6 @@ a:hover {
 #main {
 	width: 100%;
 	text-align: center;
-	/*	height: 100%;*/
-	/*	vertical-align: middle;*/
 	margin-top: 200px !important;
 	display: flex;
 	flex-wrap: wrap;
@@ -70,17 +68,29 @@ a:hover {
 }
 
 #sign-in {
-	border: 1px solid #000000;
+	border: none;
+	height: 2em;
+	margin-left: 20px;
+	font-size: 1em;
+	padding: 1px 10px;
+	color: #fff;
+	font-weight: 500;
+	background-color: #4688F1;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+#sign-in:focus {
+	background-color: #1266ed;
 }
 
 #logo {
 	width: 272px;
 }
 
-#search {}
-
 button:focus {
-	outline-style: none;
+	outline-style: inherit;
 }
 
 .searchb {
@@ -102,4 +112,36 @@ button:focus {
 	border: 1px solid #c6c6c6;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 	color: #222;
+}
+
+#textBox {
+	margin: 30px 0;
+	width: 528px;
+	height: 44px;
+	position: relative;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+#textBox:hover {
+	box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+#inputb {
+	border: none;
+
+	left: 0px;
+	height: 34px;
+	outline: none;
+	width: 90%;
+	padding: 5px 0 0 7px;
+	float: left;
+	font-size: 1em;
+
+}
+
+#mike {
+	float: right;
+	height: 27px;
+	margin: 8px 10px 0 0;
 }

@@ -7,6 +7,13 @@
 	<link rel='stylesheet' href='css/style.css'>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 	<title>Google</title>
+	<script type='text/javascript'>
+		function focusOn() {
+			var bar = document.getElementById('inputb');
+			bar.focus();
+		}
+		onload = focusOn;
+	</script>
 </head>
 
 <body>
@@ -25,7 +32,11 @@
 	<div id='main'>
 		<div id='search'>
 			<img id='logo' src='images/logo.png'><br>
-			<input type='text' name='search'><br>
+			<div id='textBox'>
+				<input type='text' name='search' id='inputb'>
+				<img src="images/mike.png" id='mike'>
+			</div>
+			<br>
 			<button type='search' class='searchb'>Google search</button>
 			<button type='button' class='searchb'>I'm Feeling Lucky</button>
 		</div>
