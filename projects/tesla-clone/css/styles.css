@@ -1,0 +1,66 @@
+body {
+	background: url('../images/big-car.jpg') no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	margin: 0;
+	color: white;
+}
+
+#header {
+	display: flex;
+	margin: 1em 1em 0 1em;
+	font-size: .8em;
+	text-transform: uppercase;
+}
+
+#header a img {
+	width: 7em;
+	padding-top: .1em
+}
+
+#logo2 {
+	opacity: 0;
+	margin: 0 -7em
+}
+
+#h-right {}
+
+#header a {
+	color: white;
+	text-decoration: none;
+}
+
+#header a:hover {
+	color: #d0d0d0;
+}
+
+#header a:hover #logo2 {
+	opacity: 1;
+}
+
+#h-middle {
+	margin: 0 auto;
+}
+
+#h-middle a {
+	margin: 0 7px;
+}
+
+#signin {
+	padding-right: 15px;
+}
+
+#content {
+	margin-top: 20vh;
+	display: flex;
+}
+
+#title {
+	margin: 0 auto;
+}
+
+#title h1 {
+	font-weight: 300;
+	margin: 0 auto;
+}
