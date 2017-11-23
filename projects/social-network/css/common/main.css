@@ -238,8 +238,8 @@ div.bg2 {
 }
 
 img.logo-small {
-	width: 59px !important;
-	height: 57px;
+	width: 45px !important;
+	/*	height: 57px;*/
 	position: absolute;
 	top: 25px;
 	left: 20px;
